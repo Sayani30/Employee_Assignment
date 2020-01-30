@@ -19,7 +19,6 @@ public class Employee {
 	public Employee() {
 	}
 
-	
 	public Employee(String employeeId, String firstName, String lastName, String email, String gender,
 			String departmentName, float salary, String ssn, String streetAddress, String city, String state,
 			String zip) {
@@ -133,19 +132,14 @@ public class Employee {
 	public void setZip(String zip) {
 		this.zip = zip;
 	}
-	
-	
-	
 
 	public boolean isCountryDomain() {
 		return isCountryDomain;
 	}
 
-
 	public void setCountryDomain(boolean isCountryDomain) {
 		this.isCountryDomain = isCountryDomain;
 	}
-
 
 	@Override
 	public String toString() {
