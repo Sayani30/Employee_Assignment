@@ -14,7 +14,7 @@ public class EmployeeMain {
 	 * Driver method
 	 */
 	public static void main(String[] args) throws IOException {
-		File file = new File("Mock_Data.csv");
+		File file = new File("MOCK_DATA.csv");
 		Collection<Employee> employeeList = Utility.getEmployeeList(file);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter offset : ");
